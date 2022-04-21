@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "bp2022",
+    "slug": "bp2022",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icono.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/logoRC_1x.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF "
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logoRC_1x.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    }
+  }
+}
